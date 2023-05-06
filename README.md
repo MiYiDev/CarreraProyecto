@@ -15,3 +15,4 @@ En el apartado de "Hacking con buscadores", comienza explicando las diferentes h
 Apartado de METADATOS:
 
 Comienza explicando que son los metadatos, que no dejan de ser datos acerca de otros datos, por ejemplo, en el caso de una fotografía, datos acerca del fabricante del modelo de la lente, lugar, fecha...
+
