@@ -16,3 +16,19 @@ Apartado de METADATOS:
 
 Comienza explicando que son los metadatos, que no dejan de ser datos acerca de otros datos, por ejemplo, en el caso de una fotografía, datos acerca del fabricante del modelo de la lente, lugar, fecha...
 
+08/05/2023: Muestra el programa "ExifTool" que sirve para ver los metadatos de diferentes ficheros. También muestra el programa "FOCA", de ElevenPaths, para poder ver los metadatos de páginas web (a mí particularmente no me deja ejecutarlo, captura adjunta). Lo que sí que pude hacer fue el reto que propuso, siendo este averiguar de que fecha es un documento de un exconsejal de la comunidad de Madrid que dice haberlo hecho público el día que se creó. (Captura adjunta).
+
+El apartado de "Herramientas", se me hace imposible seguirla, pues el enlace de descarga del buscador que proporciona en el curso ya no está disponible y otros enlaces que encontre, algunos contienen Malware y otro se descarga a 300kb hasta que se para por completo, por lo que paso directamente al siguiente apartado de "Herramientas de Monitorización".
+
+"Herramientas de Monitorización"
+
+Vemos y analizamos el uso de herramientas como TweetDeck (captura adjunta) o Twitonomy para analizar desde perfiles de twitter hasta hashtags... etc.
+
+La siguiente sección trata sobre las alertas de google (Google Alerts), con las que podemos programar alertas para que nos avise cada vez que aparece algo nuevo relacionado con la búsqueda que hayamos elegido como filtro.
+
+"Privacidad y Anonimato"
+
+Aquí vemos diferentes herramientas que podemos usar para poder hacernos identidades anónimas digitales, utilizando por ejemplo "FakeNameGenerator" para poder crear un perfil de una persona falso, así como la creación de E-Mails temporables o desechables con, por ejemplo, "ProtonMail".
+
+También muestra como podemos enmascarar nuestra propia identidad, como realizando las investigaciones en máquinas virtuales para así poder borrar nuestras huellas fácilmente borrando la máquina o llevando nuestras herramientas en un USB propio, además de ocultar la IP de diferentes formas (proxy, vpn...), un gestor de contraseñas...
+
