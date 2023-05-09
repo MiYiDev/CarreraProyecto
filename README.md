@@ -32,3 +32,18 @@ Aquí vemos diferentes herramientas que podemos usar para poder hacernos identid
 
 También muestra como podemos enmascarar nuestra propia identidad, como realizando las investigaciones en máquinas virtuales para así poder borrar nuestras huellas fácilmente borrando la máquina o llevando nuestras herramientas en un USB propio, además de ocultar la IP de diferentes formas (proxy, vpn...), un gestor de contraseñas...
 
+09/05/2023:
+
+"Herramientas avanzadas para búsqueda OSINT"
+
+Después de explicar por encima en que se basa el OSINT, muestra las fases del proceso que se debe llevar a cabo, como establecer objetivos.
+
+Muestra los diferentes buscadores que podemos usar, distribuciones de linux preparados para OSINT, herramientas para obtener datos con emails, herramientas para geolocalizar tweets, ips...
+
+En general, la primera parte del taller muestra herramientas para obtener información sobre diferentes plataformas o elementos, como Instagram, Twitter, Emails...
+
+(Aquí me doy cuenta de que hay un gran problema (en esta carrera al menos) sobre informar del software que se va a utilizar en los talleres o cursos, ya que siempre que se utiliza alguna distribución diferente de Linux o algun software específico me entero en el momento que lo abre y tengo que parar todo para poder instalarmelo y entonces poder continuar...)
+
+
+
+
