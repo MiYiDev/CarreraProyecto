@@ -90,7 +90,7 @@ En "Squid", un servidor situado entre la máquina del usuario y otra red (proxy-
 
 -METASPLOIT 100%:
 
-Muestra la herramienta METASPLOIT, con la que podremos hacer uso de los diferentes xploits, payloads, etc... Una vez visto esto, pasamos a práctica de METASPLOIT (capturas adjuntas).
+Muestra la herramienta METASPLOIT, con la que podremos hacer uso de los diferentes xploits, payloads, etc... Una vez visto esto, pasamos a práctica de METASPLOIT guiada. (no cuento con entornos seguros para seguir esta práctica guiada, por lo que me limito a seguir el video).
 
 Muestra las diferentes fases en las que usaremos Metasploit. Trata sobre el "fingerprinting", es decir, saber en que sistema operativo se está lanzando el host. Además, explica que es un "backdoor". Esto es, ejecutar un script remoto a la máquina de la victima.
 
@@ -102,3 +102,15 @@ En el caso de atacar Linux, primeramente se debe de realizar un escaneo de los p
 -PYTHON PARA PENTESTING
 
 Muestra diferentes librerias para la creación de scripts, como DNS Python, Python-Twitter, PyGeoIP, etc... y el uso de cada una de ellas.
+
+Realizamos el primer script para obtener información del dominio de openwebinars. (captura)
+
+<b>SCAPY</b>
+
+Permite enviar, falsificar y diseccionar paquetes de red. 
+
+<b>BEAUTIFULSOUP</b>
+
+Biblioteca de Python para analizar documentos HTML. Util para web Scrapping.
+
+
