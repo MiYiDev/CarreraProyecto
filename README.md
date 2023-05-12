@@ -114,3 +114,20 @@ Permite enviar, falsificar y diseccionar paquetes de red.
 Biblioteca de Python para analizar documentos HTML. Util para web Scrapping.
 
 
+
+"RED TEAM"
+
+Empieza tratando un poco por encima inyección SQL, fuerza bruta, XSS, inyección de codigo, phishing... básicamente cosas que ya hemos visto anteriormente en la carrera, por ello no muestro gran cosa sobre esto.
+
+<b>HACKING INFRAESTRUCTURAS</b>
+
+"Buscando objetivos con Shodan y ZoomEye": Shodan y ZoomEye son motores de búsqueda. En el caso de Shodan, busca servicios para encontrar vulnerabilidades en ellos. En caos de ZoomEye, que es más potente que Shodan, indexa una vez por semana (shodan lo hace 1 vez por mes) y es capaz de buscar direcciones IP públicas que tengan en internet un servicio.
+
+"Google Dorks": Como en la primera parte de Red Team, esto es algo que ya se ha visto anteriormente en la carrera por lo que, no voy a añadir gran parte de este apartado aquí. Basicamente explica y da ejemplos del uso de Google Dorks para encontrar información.
+
+"Man in the Middle": Como atacante, entras en el trafico de datos de 2 partes, para recibir los datos en vez de que los reciba la otra parte, haciendote pasar por ella. Hay diferentes tipos de ataques MitM (ARP caché poisoning, basado en servidores DNS, simulación de punto de acceso inalámbrico...) pero, básicamente son diferentes formas de poder entrar en el medio de una comunicación para capturar los datos cuando se están enviando, ya sea haciendote pasar por una red WiFi, instalando malware en los navegadores de las victimas, etc...
+
+"Cracking WIFI": Básicamente, conseguir la WiFi de alguna forma, por ejemplo, con fuerza bruta. 
+
+
+
