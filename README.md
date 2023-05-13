@@ -129,5 +129,51 @@ Empieza tratando un poco por encima inyección SQL, fuerza bruta, XSS, inyecció
 
 "Cracking WIFI": Básicamente, conseguir la WiFi de alguna forma, por ejemplo, con fuerza bruta. 
 
+"INFORMATICA FORENSE"
+
+Básicamente, como en los primeros talleres de la carrera, vamos a ver como obtener evidencias, contrastarlas, etc.. para obtener información. 
+
+<b>Fases de la metodología forense<b>
+
+    1.- Asegurar la escena: Asegurarse de que la escena no ha sido modificada a la hora de obtener datos e información.
+    2.- Recolección de evidencias: Debido a la volatilidad de los datos, se debe de recoletar de forma ordenada y rápida las pruebas más volátiles. Por ejemplo, como primeros datos, deberíamos de obtener los registros y contenidos de la memoria caché, y de último, los documentos. (por poner un ejemplo). El RFC 3227 es un documento que recoge las directrices para la recopilación de datos, es decir, establece como un "estandar".
+    Por último, analizaríamos esas evidencias.
+
+<b>Volcados de memoria<b>
+    
+    Esto es, una instantánea del estado interno de un programa. Una vez más, esto es algo que ya vimos a principios de la carrera, por lo que no incluiré mucha información sobre esto en este apartado.
+
+<b>Heramientas<b>
+    NMAP: Comenzamos con el uso de nmap. (capturas adjuntas)
+    WIRESHARK: De nuevo, capturas adjuntas de su utilización.
+    VOLATILITY: Herramienta usada a inicios de la carrera y, de nuevo, me es imposible usarlo.
+    DUMPIT: Lo mismo que Volatility.
+    AUTOPSY: Esta herramienta se trata de un conjunto de herramientas útiles para el análisis forense. Analiza el registro del S.O., saca datos EXIF de imágenes, etc...
+
+"METASPLOIT PARA PENTESTING"
+
+Inicialmente, explica que es Metasploit (algo que, de nuevo, ya hemos visto en dos ocasiones a lo largo de la carrera), como iniciarlo, actualizar la herramienta, el uso de filtros como RHOSTS, LHOST (localhost), cargar exploits, payloads...
+
+Posteriormente, realiza un ejemplo práctico de realizar una taque con Metasploit, al igual que en otras ocasiones en la carrera, básicamente, sobre un entorno controlado, realiza un analisis con nmap de los puertos que está usando para encontrar vulnerabilidades y exploits potencialmente peligrosos. Una vez encontrado el exploit y rellenados los filtros necesarios (RHOST y LHOST), lo lanza y carga un payload para acceder. Una vez accede, navega por la consola de la máquina atacada para entrar en ficheros como Passwd.
+
+"AUTOPSY: Recuperación de Datos"
+
+Último taller de la carrera. De nuevo, herramienta que ya hemos visto anteriormente... Muestra como instalarlo y las funcionalidades que tiene, como por ejemplo, analizar el registro del S.O., sacar datos EXIF de imágenes... pero esto es algo que ya he explicado.
+
+A mayores que lo visto anteriormente, enseña como hacer un hash lookup para hashear los ficheros que analicemos, explora archivos de ejemplo para ver metadatos que proporciona y la opción de recuperarlos.
+
+
+
+Acabado el taller de Autopsy, queda finalizada la carrera de Hacking Ético. En mi opinión, considero que es una carrera muy útil e interesante pero, lo falla todo la forma en la que está hecha. Considero que las personas encargadas de llevar a cabo los diferentes cursos y talleres de esta carrera, aunque son muy profesionales y, evidentemente, tienen muchos conocimientos acerca de este tema, no creo que se desenvuelvan bien a la hora de explicar y enseñar a otra gente. Bajo mi punto de vista, no sólo es poco dinámica, sino que además se hace pesada y larga (a pesar de su corta duración), pues, salvandose un poco el profesor Francisco Carcaño, encargado de la parte de OSINT, tanto Carlos Lucena (encargado de la parte de testing) como Jordi Ubach (profesor que más "encargado" está en enseñar en esta carrera, pues es el que más aparece), hablan muy lento (he necesitado poner los videos en, como poco, x1.5 de velocidad), sino que además no explican muy bien o de forma clara los temas que se tratan. 
+
+Dejando este tema a un lado, también considero que se da poca información con "valor". Utilizando la palabra "valor" me refiero a, información o aprendizaje realmente interesante que te puede dar un curso online y no tanto así tu propia búsqueda por internet. Yo, como persona que le gusta el tema de la ciberseguridad, en pocos días aprendiendo usando la plataforma HackTheBox hace un año, aprendí y utilicé más sobre, por ejemplo, nmap, Metasploit o SQL Injection, que las aproximadamente tres horas que se tratan esas herramientas en la carrera.
+
+Otro tema que considero que no está bien pensado es, el previo aviso sobre las herramientas que se van a utilizar en los talleres o cursos. Cuando se toca Kali Linux, no sólo no explican previamente que debes de tener preparada una máquina con Kali (te enteras una vez la abren ellos...), sino que además no se paran a explicarte el por qué vas a utilizar una distribución como Kali ni explican la existencia de otras más potentes y avanzadas como Arch. Considero que, puestos a enseñar, enseñémos de verdad y expliquemos el por qué de las cosas y la utilidad que tienen.
+
+Como algo más que añadir, también me gustaria comentar que en ciertas cosas que se dicen no estoy muy de acuerdo. En la parte de Hacking Web, empiezan explicando una "estructura(?)" de internet, donde, al parecer, hay como 3 segmentos bien diferenciados y marcados con porcentajes sobre las diferentes capas que hay. Da una explicación de Dark Web y Deep Web que, más que la realidad, parece que afirma los tópicos que se dicen sobre la Dark Weeb de que es la parte criminal irrastreable de internet y utilizada por grandes criminales y ni mucho menos, por no hablar de que lo de internet es un 3% lo que vemos y el resto información turbia y oscura lo recuerdo yo de cuando era un niño pequeño y me empezaba a informar sobre las capas que tiene internet... (porcentajes inventados por mi porque no recuerdo los dichos por el profesor... pero tanto no se alejaban.)
+
+Repito, esto anteriormente dicho es bajo mi punto de vista y mi opinión completamente subjetiva. Dicho esto, mi conclusión para esta carrera es: un tema que puede ser muy interesante y muy útil pero, con grandes sombras en términos de explicación e información dada y, sobretodo, dinamismo.
+
+
 
 
